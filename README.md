@@ -2,11 +2,11 @@
 ## userテーブル
 | Column             | Type    | Option                    |
 |-                   |-        |-                          |
+| id(PK)             | integer | null: false               |
 | name               | string  | null: false               |
 | nickname           | string  | null: false               |
 | email              | string  | null: false, unique: true |
 | encrypted_password | string  | null: false               |
-| id(PK)             | integer | null: false               |
 | date_of_birth      | date    | null: false               |
 
 
@@ -15,16 +15,23 @@
 - has_many :conducts
 
 
+## postsテーブル
+| Column             | Type    | Option                    |
+|-                   |-        |-                          |
 
-## commentテーブル
+
+### Association
+
+
+## commentsテーブル
+| Column             | Type    | Option                    |
+|-                   |-        |-                          |
+
+
 ### Association
 
 
 
-## comment_usersテーブル
-### Association
 
 
 
-## conductテーブル
-### Association
