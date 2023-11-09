@@ -15,7 +15,7 @@
 - has_many :conducts
 
 
-## postsテーブル
+## conductsテーブル
 | Column             | Type    | Option                    |
 |-                   |-        |-                          |
 
